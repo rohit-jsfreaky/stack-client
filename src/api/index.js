@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API = axios.create({ baseURL: 'https://stacik-server.vercel.app/' })
+const API = axios.create({ baseURL: 'https://stacik-server-nq6lq3nkf-rohits-projects-148e8ae0.vercel.app/' })
 
 
 export const logIn = (authdata) => API.post('/user/login', authdata);
